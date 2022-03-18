@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Notes API 3.1</name>
+    </assembly>
+    <members>
+        <member name="M:Notes_API_3._1.CategoriesController.Get">
+            <summary>
+            Get all notes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Notes_API_3._1.NotesController.GetNotes">
+            <summary>
+            Get all notes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Notes_API_3._1.Controllers.WeatherForecastController.Get">
+            <summary>
+            Weather Forecast Controller
+            </summary>
+            <response code="200">Everything is fine!</response>
+        </member>
+    </members>
+</doc>

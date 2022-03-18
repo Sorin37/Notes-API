@@ -1,0 +1,27 @@
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.exe
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.deps.json
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.runtimeconfig.json
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.runtimeconfig.dev.json
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.pdb
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Notes API 3.1.xml
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.csproj.AssemblyReference.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.AssemblyInfoInputs.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.AssemblyInfo.cs
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.csproj.CoreCompileInputs.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.MvcApplicationPartsAssemblyInfo.cs
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.MvcApplicationPartsAssemblyInfo.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\staticwebassets\Notes API 3.1.StaticWebAssets.Manifest.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.RazorTargetAssemblyInfo.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.csproj.CopyComplete
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.xml
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.pdb
+D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.genruntimeconfig.cache
