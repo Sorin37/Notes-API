@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Notes_API_3._1.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -33,6 +34,8 @@ namespace Notes_API_3._1
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+            services.AddSingleton<INoteCollectionService, NoteCollectionService>();
+            services.AddSingleton<IOwnerCollectionService, OwnerCollectionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

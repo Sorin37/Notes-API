@@ -16,20 +16,32 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Notes_API_3._1.NotesController.GetNotesByOwnerId(System.Guid)">
-            <summary>
-            Get notes by owner id
-            </summary>
-        </member>
         <member name="M:Notes_API_3._1.NotesController.GetNotesById(System.Guid)">
             <summary>
             Get note by id
+            </summary>
+        </member>
+        <member name="M:Notes_API_3._1.NotesController.GetNotesByOwnerId(System.Guid)">
+            <summary>
+            Get notes by owner id
             </summary>
         </member>
         <member name="M:Notes_API_3._1.NotesController.CreateNote(Notes_API_3._1.Note)">
             <summary>
             Add a note
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Notes_API_3._1.OwnerController.GetOwners">
+            <summary>
+            Get all owners
+            </summary>
+        </member>
+        <member name="M:Notes_API_3._1.OwnerController.AddOwner(Notes_API_3._1.Models.Owner)">
+            <summary>
+            Create owner
+            </summary>
+            <param name="owner"></param>
             <returns></returns>
         </member>
         <member name="M:Notes_API_3._1.OwnerController.DeleteOwner(System.Guid)">

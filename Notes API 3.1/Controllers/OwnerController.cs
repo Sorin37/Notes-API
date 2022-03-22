@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Notes_API_3._1.Models;
+using Notes_API_3._1.Services;
 using System;
 using System.Collections.Generic;
 
@@ -10,23 +11,30 @@ namespace Notes_API_3._1
     [Route("[controller]")]
     public class OwnerController : ControllerBase
     {
-        static List<Owner> _owners = new List<Owner> {
-            new Owner{Id = new Guid("00000000-0000-0000-0000-000000000001"), Name = "Sorin"},
-            new Owner{Id = new Guid("00000000-0000-0000-0000-000000000002"), Name = "Eduard"},
-            new Owner{Id = new Guid("00000000-0000-0000-0000-000000000003"), Name = "Ioan"}
-        };
+        IOwnerCollectionService _ownerCollectionService;
+        public OwnerController(IOwnerCollectionService ownerCollectionService) {
+            _ownerCollectionService = ownerCollectionService ?? throw new ArgumentNullException(nameof(ownerCollectionService));
+        }
 
-        public OwnerController() { }
+        ///<summary>
+        ///Get all owners
+        ///</summary>
         [HttpGet]
         public IActionResult GetOwners()
         {
-            return Ok(_owners);
+            return Ok(_ownerCollectionService.GetAll());
         }
+
+        /// <summary>
+        /// Create owner
+        /// </summary>
+        /// <param name="owner"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult AddOwner(Owner owner)
         {
-            _owners.Add(owner);
-            return Ok(_owners);
+            _ownerCollectionService.Create(owner);
+            return Ok(_ownerCollectionService.GetAll());
         }
 
         ///<summary>
@@ -36,12 +44,12 @@ namespace Notes_API_3._1
         [HttpDelete("{id}")]
         public IActionResult DeleteOwner(Guid id)
         {
-            if (_owners.Find(owner => owner.Id == id) == null)
+            if (_ownerCollectionService.Get(id) == null)
             {
-                return NotFound();
+                return NotFound($"No owner found with id: {id}");
             }
-            _owners.Remove(_owners.Find(owner => owner.Id == id));
-            return Ok(_owners);
+            _ownerCollectionService.Delete(id);
+            return Ok(_ownerCollectionService.GetAll());
         }
 
         /// <summary>
@@ -50,13 +58,12 @@ namespace Notes_API_3._1
         [HttpPut("{id}")]
         public IActionResult UpdateOwner(Guid id, [FromBody] Owner owner)
         {
-            if(_owners.Find(owner => owner.Id == id) == null)
+            if (_ownerCollectionService.Get(id) == null)
             {
-                return NotFound("Owner not found");
+                return NotFound($"No owner found with id: {id}");
             }
-            int index = _owners.IndexOf(_owners.Find(owner => owner.Id==id));
-            _owners[index] = owner;
-            return Ok(_owners);
+            _ownerCollectionService.Update(id, owner);
+            return Ok(_ownerCollectionService.GetAll());
         }
     }
 }
