@@ -25,3 +25,27 @@ D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.dll
 D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.xml
 D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.pdb
 D:\Trimble\Notes API 3.1\Notes API 3.1\obj\Debug\netcoreapp3.1\Notes API 3.1.genruntimeconfig.cache
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\linux\native\libsnappy64.so
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\linux\native\libzstd.so
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\osx\native\libsnappy64.dylib
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\osx\native\libzstd.dylib
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Trimble\Notes API 3.1\Notes API 3.1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll

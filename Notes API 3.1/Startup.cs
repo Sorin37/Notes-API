@@ -6,7 +6,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Notes_API_3._1.Services;
+using Notes_API_3._1.Settings;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -36,6 +38,9 @@ namespace Notes_API_3._1
             });
             services.AddSingleton<INoteCollectionService, NoteCollectionService>();
             services.AddSingleton<IOwnerCollectionService, OwnerCollectionService>();
+            services.Configure<MongoDBSettings>(Configuration.GetSection(nameof(MongoDBSettings)));
+            services.AddSingleton<IMongoDBSettings>(sp => sp.GetRequiredService<IOptions<MongoDBSettings>>().Value);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
