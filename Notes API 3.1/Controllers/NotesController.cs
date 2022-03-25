@@ -57,6 +57,20 @@ namespace Notes_API_3._1
         //    return Ok(result);
         //}
 
+        /// <summary>
+        /// Get note by id
+        /// </summary>
+        [HttpGet("{noteId}")]
+        public async Task<IActionResult> GetNotesById(Guid noteId)
+        {
+            var result = await _noteCollectionService.Get(noteId);
+            if (result == null)
+            {
+                return NotFound($"No note found with id {noteId}");
+            }
+            return Ok(result);
+        }
+
         ///// <summary>
         ///// Get notes by owner id
         ///// </summary>
@@ -114,7 +128,10 @@ namespace Notes_API_3._1
             if(await _noteCollectionService.Get(id) == null)
             {
                 await _noteCollectionService.Create(note);
+                return Ok("Note with this id was not found but got created now");
             }
+
+            await _noteCollectionService.Update(id, note);
 
             return Ok(await _noteCollectionService.GetAll());
         }

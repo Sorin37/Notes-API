@@ -49,12 +49,13 @@ namespace Notes_API_3._1.Services
 
         public async Task<Note> Get(Guid id)
         {
-            var result = await _notes.FindAsync(n => n.Id == id);
-            if(result.ToList().Count == 0)
-            {
-                return null;
-            }
-            return result.ToList()[0];
+            //var result = await _notes.FindAsync(n => n.Id == id);
+            //if(result.ToList().Count == 0)
+            //{
+            //    return null;
+            //}
+            //return result.ToList()[0];
+            return (await _notes.FindAsync(n => n.Id == id)).FirstOrDefault();
         }
 
         public async Task<List<Note>> GetAll()
@@ -71,7 +72,8 @@ namespace Notes_API_3._1.Services
         public async Task<bool> Update(Guid id, Note note)
         {
             note.Id = id;
-            var result = await _notes.ReplaceOneAsync( n => n .Id == id, note);
+            var result = await _notes.ReplaceOneAsync( n => n.Id == id, note);
+
             if(!result.IsAcknowledged && result.ModifiedCount == 0)
             {
                 await _notes.InsertOneAsync(note);

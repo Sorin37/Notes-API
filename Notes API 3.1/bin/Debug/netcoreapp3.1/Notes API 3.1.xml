@@ -16,6 +16,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Notes_API_3._1.NotesController.GetNotesById(System.Guid)">
+            <summary>
+            Get note by id
+            </summary>
+        </member>
         <member name="M:Notes_API_3._1.NotesController.CreateNote(Notes_API_3._1.Note)">
             <summary>
             Add a note
