@@ -77,7 +77,7 @@ namespace Notes_API_3._1
                 return BadRequest("Note is null");
             if(note.Id == null)
             {
-                note.Id = new Guid();
+                note.Id = Guid.NewGuid();
             }
             await _noteCollectionService.Create(note);
             return Ok(await _noteCollectionService.GetAll());
